@@ -1,0 +1,3 @@
+[submodule "repo/aqcc"]
+	path = repo/aqcc
+	url = https://github.com/ushitora-anqou/aqcc.git
