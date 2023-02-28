@@ -1,3 +1,6 @@
 [submodule "repo/aqcc"]
 	path = repo/aqcc
 	url = https://github.com/ushitora-anqou/aqcc.git
+[submodule "repo/2kmcc"]
+	path = repo/2kmcc
+	url = https://github.com/sozysozbot/2kmcc.git
