@@ -1,6 +1,5 @@
 #!/usr/bin/bash -xeu
 
-git clone https://github.com/ushitora-anqou/aqcc.git
 cd aqcc/cc
 cat main.c vector.c utility.c map.c lex.c parse.c x86_64_gen.c type.c env.c ast.c analyze.c string_builder.c cpp.c token.c stdlib.c | gcc -E - | grep -v '^#' > all_in.c
 if ! $1 all_in.c aqcc.s; then

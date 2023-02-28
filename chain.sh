@@ -19,6 +19,7 @@ do_case(){
         echo ">>>>> Prepare $target"
         target_workdir=$workdir/$i-$target
         rsync -av script/$target/ $target_workdir/
+        rsync -av repo/$target/ $target_workdir/$target/
         pushd $target_workdir
         ./prepare $current_compiler_workdir/compile
         popd
