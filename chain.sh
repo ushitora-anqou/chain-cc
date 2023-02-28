@@ -30,19 +30,6 @@ do_case(){
     echo ">>>>> Test $current_compiler"
     cd $current_compiler_workdir
     SCRIPT=compile python ../../../testsuite/test_correctly_accepts.py
-
-    #rsync -av script/$target/ $workdir/target/
-    #rsync -av script/$compiler/ $workdir/compiler/
-
-    ## Prepare the compiler (backed by gcc)
-    #pushd $workdir/compiler
-    #./prepare $root/script/gcc/compile
-    #popd
-
-    ## Prepare the target & perform the testsuite
-    #cd $workdir/target
-    #./prepare $workdir/compiler/compile
-    #SCRIPT=compile python ../../../testsuite/test_correctly_accepts.py
 }
 
 mkdir -p build
