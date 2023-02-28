@@ -46,10 +46,4 @@ do_case(){
 }
 
 mkdir -p build
-subcommand=$1
-shift
-case $subcommand in
-    chain | * )
-        do_case "$@"
-        ;;
-esac
+do_case "$@"
