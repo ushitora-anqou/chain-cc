@@ -1,0 +1,6 @@
+#!/usr/bin/bash -x
+
+git clone https://github.com/sozysozbot/2kmcc.git
+cd 2kmcc
+$1 main.c 2kmcc.s
+gcc 2kmcc.s -o 2kmcc -static

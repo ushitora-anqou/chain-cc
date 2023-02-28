@@ -1,0 +1,3 @@
+#!/usr/bin/bash -x
+
+cc -S $1 -o $2

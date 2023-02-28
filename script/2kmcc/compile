@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+$(dirname $0)/2kmcc/2kmcc "$(cat $1)" > $2
