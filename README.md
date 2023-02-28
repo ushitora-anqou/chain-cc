@@ -20,3 +20,7 @@ Chain homemade C compilers with ease.
 - Files written by me are licensed under MIT License.
 - Files in `testsuite/` are a fork of the [@sozysozbot's work](https://github.com/sozysozbot/2kmcc).
 - Every submodule is attributed to its author.
+
+## TODO
+
+- Probably I should read https://dwheeler.com/trusting-trust/dissertation/wheeler-trusting-trust-ddc.pdf
